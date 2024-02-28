@@ -1,0 +1,191 @@
+body{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/*
+* start header
+*/
+.header-nav,
+.header-nav>div{
+    padding: 0 !important;
+}
+.header-nav>div>div{
+    align-items: center;
+    justify-content: center;
+}
+.header-nav>div>div:first-of-type{
+    align-items: flex-start;
+    padding-left: 0;
+}
+.header-nav>div>div:last-of-type{
+    align-items: flex-end;
+    padding-right: 0;
+}
+.header-nav .menu-header li a{
+    font-weight: 400 !important;
+    font-size: 14px;
+    line-height: 16.59px !important;
+    color: #373739 !important;
+    text-transform: uppercase;
+    border-bottom: 0px solid transparent !important;
+    padding: 9.5px 10.1px !important;
+}
+.header-nav .menu-header li:not(:last-of-type){
+    margin-right: 40px;
+}
+.header-nav .menu-header li.current-menu-item a{
+    background: #EFF0F6 !important;
+    border-bottom: 2px solid #009149 !important;
+    color: #009149 !important;
+}
+.header-nav #contactez-nous{
+    background: #009149;
+    padding: 8px 11.8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 209px;
+}
+.header-nav  #contactez-nous .elementor-align-icon-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-nav #contactez-nous .elementor-align-icon-right svg{
+    width: 24px;
+    height: 24px;
+}
+
+/**
+* start style slide
+*/
+.slide-home-page-container{
+    padding: 0;
+}
+.slide-home-page-container .slide-home-page{
+    width: 100%;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner{
+    max-width: 1360px;
+    padding: 0;
+    margin: 0 auto;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner .elementor-slide-heading{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53.26px;
+    position: relative;
+    padding-left: 18px;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner .elementor-slide-heading::before{
+    height: 100%;
+    width: 5px;
+    background: #E5DD00;
+    content: "";
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.slide-home-page-container .slide-home-page .elementor-background-overlay{
+    background-color: transparent !important;
+    background-image: url(../images/overlay-vert.svg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner  .elementor-slide-description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 598px;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner  .elementor-button {
+    background: #fff;
+    color: #009149;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 8.4px 16.7px;
+}
+.slide-home-page-container .slide-home-page .swiper-slide-inner  .elementor-button::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/Icons.svg);
+    display: inline-block;
+    margin-left: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/**
+* start section 
+*/
+.section-menu-content{
+    padding:0;
+    background: #F7F7FC;
+}
+.section-menu-content>div{
+    padding: 0 !important;
+}
+.section-menu-content .hfe-nav-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-menu-content nav{
+    width: 100%;
+}
+.section-menu-content nav .hfe-nav-menu:before,
+.section-menu-content nav .hfe-nav-menu::after{
+    display: none;
+}
+.section-menu-content nav .hfe-nav-menu a{
+    padding: 22.2px 32.48px !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    text-align: center;
+    color: #6E7191 !important;
+    border-bottom: 3px solid transparent;
+}
+.section-menu-content nav .hfe-nav-menu li:first-of-type a{
+    color: #009149 !important;
+    border-bottom: 3px solid #009149;
+    background: #EFF0F6;
+}
+/**
+* start section qui sommes nous
+*/
+.qui-sommes-nous{
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.qui-sommes-nous .qui-sommes-nous-container .e-con-inner{
+    display: flex;
+    flex-direction: row;
+    padding: 33px 187px;
+    align-items: center;
+    justify-content: space-between;
+}
+.qui-sommes-nous .qui-sommes-nous-container .e-con-inner .description-text{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 31.2px;
+    width: calc(100% - 86px);
+    padding-left: 37px
+}
