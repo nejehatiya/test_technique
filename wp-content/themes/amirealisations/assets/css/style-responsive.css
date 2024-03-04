@@ -1,0 +1,272 @@
+@media( min-width : 576px ){
+    .copy-right-container{
+        display: none;
+    }
+}
+@media ( max-width : 576px ){
+    /*
+    * start header css
+    */
+    .header-nav .button-header-container{
+        display: none;
+    }
+    .header-nav {
+        position: relative;
+        max-height: 44px;
+    }
+    .header-nav>div>div:first-of-type {
+        align-items: center;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .header-nav>div>div:first-of-type  img{
+        max-width: 71.28px;
+        max-height: 26px;
+    }
+    .header-nav .menu-container{
+        position: absolute;
+        width: 24px;
+        left: 0;
+    }
+    .header-nav .menu-container .hfe-nav-menu-icon{
+        padding: 0;
+    }
+    .header-nav.e-con.e-flex>.e-con-inner>div{
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+    }
+    .header-nav.e-con.e-flex>.e-con-inner>div{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header-nav .menu-header nav{
+        width: 100% !important;
+        position: fixed !important;
+        z-index: 1 !important;
+        top: 43px !important;
+        left: 0 !important;
+    }
+    .header-nav .menu-header li{
+        margin-right: 0px !important;
+    }
+    /*
+    * start footer css
+    */
+    footer {
+        padding: 39px 0 9px;
+    }
+    footer .e-con-inner .logo-footer-section{
+        margin-bottom: 46px;
+    }
+    footer .footer-container{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    footer .e-con-inner .logo-footer-section p{
+        display: none;
+    }
+    footer .e-con-inner h2{
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+        position: relative;
+    }
+    footer .e-con-inner .infos-section h2{
+        border-bottom: 0px;
+    }
+    footer .e-con-inner h2::after{
+        content: '';
+        background-image: url(../images/arrow.svg);
+        position: absolute;
+        width: 24px;
+        height: 11px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 10px;
+        right: 0;    
+    }
+    footer .e-con-inner .open h2::after{
+        transform: rotate(180deg);
+    }
+    footer .e-con-inner .title-widget-social h2{
+        display: none;
+    }
+    footer .e-con-inner  .widget-content{
+        display: none;
+    }
+    footer .e-con-inner .open  .widget-content{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .copy-right-container,
+    .copy-right-container *{
+        display: flex;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 36px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    /**
+    * start section section-menu-content
+    */
+    .section-menu-content{
+        display: none !important;
+    }
+    /**
+    * start section slide
+    */
+    .slide-home-page-container .slide-home-page,
+    .slide-home-page-container .swiper-slide{
+        height: 622px !important;
+    }
+    .slide-home-page-container .slide-home-page .swiper-slide-inner .elementor-slide-heading{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .slide-home-page-container .slide-home-page .swiper-slide-inner .elementor-slide-heading br{
+        display: none;
+    }
+    .slide-home-page-container .slide-home-page .swiper-slide-inner .elementor-slide-description{
+        font-size: 18px;
+    }
+    .slide-home-page-container .swiper-slide .swiper-slide-bg{
+        background-size: contain !important;
+        background-position: top;
+    }
+    .slide-home-page-container .slide-home-page .elementor-background-overlay{
+        background-image: url(../images/overlay-mobile.svg);
+        background-position: bottom;
+        background-size: 494px;
+
+    }
+    .slide-home-page-container .slide-home-page  .swiper-slide-inner{
+        display: flex;
+        align-items: flex-end;
+        padding: 0 24px 64px;
+    }
+    .slide-home-page-container .slide-home-page  .swiper-slide-contents {
+        max-width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    /**
+    * start section qui-sommes-nous
+    */
+    .qui-sommes-nous{
+        padding: 42px 24px;
+    }
+    .qui-sommes-nous>.e-con-inner{
+        padding: 0;
+        margin: 0;
+    }
+    .qui-sommes-nous .qui-sommes-nous-container{
+        background-image: url(../images/quis-somme-nous.svg) !important;
+        padding: 0;
+    }
+    .qui-sommes-nous .qui-sommes-nous-container .e-con-inner{
+        padding: 49px 38px;
+        align-items: center;
+        justify-content: center;
+    }
+    .qui-sommes-nous .qui-sommes-nous-container .e-con-inner .description-text{
+        width: 100%;
+        padding: 0 !important;
+        text-align: center;
+    }
+    .title-head .elementor-heading-title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .title-head .elementor-heading-title::after{
+        bottom: -20px;
+    }
+    .nos-metiers, 
+    .nos-clients, 
+    .carrieres,  
+    .nos-realisaion{
+        padding: 44px 0 95px;
+    }
+    .carrieres,
+    .contact{
+        padding: 44px 0 64px;
+    }
+    .nos-metiers>.e-con-inner, 
+    .nos-clients>.e-con-inner, 
+    .carrieres>.e-con-inner, 
+    .contac>.e-con-innert, 
+    .nos-realisaion>.e-con-inner{
+        margin: 0;
+        padding: 0 24px;
+    }
+    .nos-metiers .swiper .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: -36px;
+    }
+    .nos-metiers .swiper .elementor-swiper-button{
+        bottom: -65px;
+    }
+    .nos-metiers .swiper .elementor-swiper-button svg{
+        width: 41px;
+        height: 41px;
+    }
+    .nos-metiers .swiper .swiper-slide-image{
+        min-height: 351px;
+        width: auto;
+    }
+    .nos-realisaion .product-list.slick-slider {
+        width: 100%;
+    }
+    .nos-realisaion .product-list-nav ul li button{
+        font-size: 0;
+        height: 4px;
+        line-height: 0;
+        padding: 0;
+        border-radius: 5px;
+        width: 20px;
+        background: rgba(241, 241, 244, 0.4);
+    }
+    .nos-realisaion .product-list-nav ul li button.active {
+        background: rgba(241, 241, 244, 1);
+        border-bottom: 0px solid rgba(241, 241, 244, 1);
+        width: 50px;
+    }
+    .nos-realisaion .product-list-nav ul li {
+        margin-right: 6px;
+        display: flex;
+        align-items: center;
+    }
+    .nos-realisaion .product-list-nav button.play-button{
+        margin-left: 12.8px;
+    }
+
+    .carrieres .carrier-content{
+        background-image: url(../images/carrier-bg.svg) !important;
+        background-position: center !important;
+        height: 599px;
+        padding: 25px 25px 42px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .carrieres .carrier-content .description * {
+        font-size: 18px;
+        color: rgba(252, 252, 252, 1);
+    }
+    .contact>.e-con-inner{
+        padding: 0 24px !important;
+    }
+    .contact .formulaire-container{
+        width: 100%;
+        padding: 10px 20px 30px;
+    }
+    .contact .formulaire-container .form-inner form>div>div{
+        width: 100%;
+    }
+}

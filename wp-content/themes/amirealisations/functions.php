@@ -20,6 +20,7 @@ add_action('after_setup_theme', 'ami_realisation_setup');
  */
 function ami_realisation_style() {
     wp_enqueue_style( 'style-custom', get_template_directory_uri() . '/assets/css/style-custom.css', array(  ) );
+    wp_enqueue_style( 'style-responsive', get_template_directory_uri() . '/assets/css/style-responsive.css', array(  ) );
 }
 add_action( 'wp_enqueue_scripts', 'ami_realisation_style', 10 );
 

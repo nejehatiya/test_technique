@@ -2,6 +2,7 @@ body{
     background-color: #fff;
     padding: 0;
     margin: 0;
+    font-family: "Rubik", sans-serif;
 }
 * {
     box-sizing: border-box;
@@ -161,7 +162,7 @@ body{
     color: #6E7191 !important;
     border-bottom: 3px solid transparent;
 }
-.section-menu-content nav .hfe-nav-menu li:first-of-type a{
+.section-menu-content nav .hfe-nav-menu li.current-menu-item a{
     color: #009149 !important;
     border-bottom: 3px solid #009149;
     background: #EFF0F6;
@@ -188,4 +189,429 @@ body{
     line-height: 31.2px;
     width: calc(100% - 86px);
     padding-left: 37px
+}
+/**
+* start section nos metier
+*/
+.nos-metiers,
+.nos-clients,
+.carrieres,
+.contact,
+.nos-realisaion{
+    background: #EFF0F6;
+    padding: 54px 0 53px;
+    overflow: hidden;
+}
+.nos-metiers>div.e-con-inner>div{
+    padding: 0;
+}
+.title-head .elementor-heading-title{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 53.26px;
+    color: #373739 !important;
+    font-family: inherit;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+.title-head .elementor-heading-title::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 90px;
+    height: 5.28px;
+    left: calc(50% - 45px);
+    background: #009149;
+}
+.nos-metiers .elementor-image-carousel-wrapper,
+.nos-clients .elementor-image-carousel-wrapper{
+    overflow: visible;
+    /*width: calc( 100% + ( ( 100vw - 1360px ) / 2 ) + 0px );*/
+    margin-left: 0;
+}
+.nos-metiers .elementor-image-carousel-wrapper .swiper-slide-inner{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.nos-metiers .elementor-image-carousel-wrapper .swiper-slide-inner::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-image: url(../images/image-438.svg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.nos-metiers .elementor-image-carousel-wrapper .swiper-slide-inner figcaption{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    z-index: 1;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.nos-metiers .swiper .elementor-swiper-button{
+    top: auto !important;
+    bottom:-62px;
+    z-index: 1;
+}
+.nos-metiers .swiper .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.nos-metiers .swiper .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet{
+    background: #A2CA2E;
+    width: 26px;
+    height: 3px;
+    display: inline-block;
+    border-radius: 0;
+    opacity: 1;
+}
+.nos-metiers .swiper .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background:#009149;
+}
+.nos-metiers .swiper .elementor-swiper-button.elementor-swiper-button-prev{
+    left: 0;
+}
+.nos-metiers .swiper .elementor-swiper-button.elementor-swiper-button-next{
+    right: 0;
+}
+.nos-metiers .swiper .elementor-swiper-button.swiper-button-disabled{
+    opacity: 1;
+}
+/**
+* start section nos domaine
+*/
+.nos-domaines{
+    background-color: #fff;
+}
+/*
+*nos-realisaion
+*/
+.nos-realisaion::before{
+    background-position: center !important;
+    background-size: cover !important;
+}
+.nos-realisaion .title-head .elementor-heading-title{
+    text-align: left;
+    color: #fff !important;
+    margin-bottom: 0;
+}
+.nos-realisaion .title-head .elementor-heading-title::after{
+    left: 0;
+    background: #E5DD00;
+    width: 221px;
+}
+/**
+*.carrieres
+*/
+.carrieres{
+    background: #fff;
+}
+.carrieres .title-head .elementor-heading-title{
+    text-align: left;
+}
+.carrieres .title-head .elementor-heading-title::after{
+    left: 0;
+}
+.carrieres .carrier-content{
+    padding: 78px 114px;
+}
+.carrieres .carrier-content .description{
+    width: 479px;
+}
+.carrieres .carrier-content .description *{
+    font-weight: 400;
+    font-size: 24px;
+    line-height:  28.8px;
+    color: #FCFCFC;
+    margin: 0;
+}
+.carrieres .carrier-content  .custom-link a{
+    background: #fff;
+    color: #009149;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 7px;
+    border-radius: 0;
+}
+.carrieres .carrier-content  .custom-link a>span>span{
+    display: flex;
+    align-items: center;
+
+}
+/**
+* start section contact
+*/
+.contact  .title-head .elementor-heading-title{
+    color: #fff !important;
+}
+.contact .title-head .elementor-heading-title::after{
+    background: #E5DD00;
+}
+.contact .formulaire-container{
+    width: 1127px;
+    background: #fff;
+    padding: 45px 132px;
+    margin: 0 auto;
+}
+.contact .formulaire-container .form-inner label,
+.contact .formulaire-container .form-inner label:after{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1D1D1B;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 13px;
+}
+.contact .formulaire-container .form-inner input,
+.contact .formulaire-container .form-inner select,
+.contact .formulaire-container .form-inner textarea{
+    border-color: #A0A3BD;
+    border-radius: 0px;
+    padding: 16px;
+    line-height: 16px;
+    color: #D9DBE9;
+    resize: none;
+}
+.contact .formulaire-container .form-inner input::placeholder{
+    color: #D9DBE9;
+}
+.contact .formulaire-container .form-inner button{
+    background: #009149;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff !important;
+    width: 160px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 160px;
+    margin: auto;
+}
+.contact .formulaire-container .form-inner form>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact .formulaire-container .form-inner form>div>div{
+    width: calc( 50% - 8px );
+    margin-bottom: 35px !important;
+    padding: 0 !important;
+}
+.contact .formulaire-container .form-inner form>div>div:nth-child(5),
+.contact .formulaire-container .form-inner form>div>div:nth-child(6){
+    width: 100%;
+}
+.contact .formulaire-container .form-inner form>div>div:nth-child(6){
+    margin-bottom: 0px !important;
+}
+/*
+* start section nos realisation
+*/
+.nos-realisaion .product-list-nav{
+    display: flex;
+}
+.nos-realisaion .product-list-nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.nos-realisaion .product-list-nav ul li{
+    margin-right: 26px                      ;
+}
+.nos-realisaion .product-list-nav ul li button{
+    background: transparent;
+    border: none;
+    padding: 8.8px 0;
+    width: 95px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.nos-realisaion .product-list-nav ul li button.active{
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 3px solid rgba(241, 241, 244, 1);
+}
+.nos-realisaion .product-list-nav  button.play-button{
+    width: 42px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    transition: width 0.5s ease-in-out;
+    border: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 15.5px;
+}
+.nos-realisaion .product-list-nav  button.play-button img{
+    margin-right: 10px;
+    height: 12.83px;
+}
+.nos-realisaion .product-list-nav  button.play-button:hover{
+    width: 100px;
+    cursor: pointer;
+}
+.nos-realisaion .product-list-nav  button.play-button span{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.nos-realisaion .product-list-nav  button.play-button:hover span{
+    opacity: 1;
+}
+.nos-realisaion .product-list:not(.slick-slider){
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 498px;
+}
+.nos-realisaion .product-list.slick-slider{
+    width: 498px;
+}
+.nos-realisaion .product-list:not(.slick-slider) .product-item{
+    width: 498px;
+    min-width: 498px;
+}
+.nos-realisaion .product-list .product-item .inner{
+    max-width: 498px;
+}
+.nos-realisaion .product-list .product-item .product-item-header{
+
+}
+.nos-realisaion .product-list .product-item .product-item-header p.title,
+.nos-realisaion .product-list .product-item  .product-item-budget p.title,
+.nos-realisaion .product-list .product-item  .product-item-mission p.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.nos-realisaion .product-list .product-item .product-item-header p img,
+.nos-realisaion .product-list .product-item  .product-item-budget p img,
+.nos-realisaion .product-list .product-item  .product-item-mission p img{
+    margin-right: 14px;
+}
+.nos-realisaion .product-list .product-item  .product-item-description ,
+.nos-realisaion .product-list .product-item .infos{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 35px;
+}   
+.nos-realisaion .product-list .product-item  .product-item-budget{
+
+}
+.nos-realisaion .product-list .product-item  .product-item-mission{
+
+}
+/**
+* start footer
+*/
+footer{
+    background: #0C6338;
+    padding: 49px 0 79.87px;
+}
+footer .e-con-inner{
+    justify-content: space-between !important;
+}
+footer .e-con-inner>div{
+    padding: 0 !important;
+    display: block;
+}
+footer .e-con-inner .logo-footer-section p{
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
+    font-size: 15.23px;
+    line-height: 34.27px;
+    letter-spacing: 2px;
+}
+footer .e-con-inner h2{
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: 500 !important;
+    line-height: 28.36px;
+    margin-bottom: 15px;
+}
+footer .e-con-inner .title-widget-social h2{
+    margin-top: 10px;
+}
+footer .e-con-inner .a-propos-section p{
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.8;
+}
+footer .e-con-inner .site-section ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+footer .e-con-inner .site-section ul li:not(:last-of-type){
+    margin-bottom: 16px;
+}
+footer .e-con-inner .site-section ul li a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.22px;
+    text-transform: uppercase;
+}
+footer .e-con-inner .adresse-section .elementor-widget-container{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer .e-con-inner   .infos-section p{
+    margin: 0;
+}
+footer .e-con-inner  .infos-section a{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 14.22px;
+}
+footer .e-con-inner .social-icon-container .elementor-social-icons-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: -2px;
+}
+footer .e-con-inner .social-icon-container svg{
+    width: 24px;
+    height: 24px;
 }
